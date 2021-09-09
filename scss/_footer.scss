@@ -1,0 +1,105 @@
+#footercta{
+    background: url(../images/footer_cta_bg.jpg) 50% 50% no-repeat transparent;
+    background-size: cover;
+
+    .grid-container{
+        padding-top: 200px;
+
+        .footercta_logo{
+            padding-top: 17px;
+        }
+
+        .footercta_txt{
+            h2{
+                font-family: "Mr Eaves XL Mod OT";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 112px;
+                line-height: 106px;
+                color: #fff;
+                margin:0;
+    
+                span{
+                    font-weight: 800;
+                    display: block;
+                }
+            }
+        }
+
+        .footercta_btns{
+            padding-top: 238px;
+            padding-bottom: 52px;
+
+            .btn{
+                font-family: "Mr Eaves XL Mod OT";
+                color: #fff;
+                font-weight: 800;
+                font-size: 25px;
+                line-height: 25px;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding: 29px 56px;
+                background: #CE571B;
+
+                &.no_bg{
+                    background-color: transparent;
+
+                    &:hover{
+                        color: #CE571B;
+                        background-color: transparent;
+                    }
+                }
+
+                &:hover{
+                    background: #2671A7;
+                }
+            }
+        }
+        
+    }
+}
+
+#footerarea{
+
+    .grid-container{
+        padding-top: 141px;
+        padding-bottom: 160px;
+
+        .quicklinks{
+            ul{
+                margin: 0;
+                padding: 0;
+
+                li{
+                    font-family: "Mr Eaves XL Mod OT";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 18px;
+                    list-style-type: none;
+                    margin-bottom: 10px;
+
+                    a{
+                        color: #000000;
+
+                        &:hover{
+                            color: #CE571B;
+                        }
+                    }
+
+                    ul{
+                        margin-top: 5px;
+
+                        li{
+                            margin-bottom: 0px;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
